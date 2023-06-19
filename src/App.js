@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-    prince
-    </div>
+      <div className='loginPage'>
+        <div className='mainWrapper'>
+          <div  className='container'> <FontAwesomeIcon icon={faCoffee} /></div>
+        </div>
+      </div>
+      </div>
   );
 }
 
